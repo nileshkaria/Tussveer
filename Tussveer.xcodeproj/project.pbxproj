@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B50B2981169A278E00093C45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50B2980169A278E00093C45 /* UIKit.framework */; };
+		B50B2983169A278E00093C45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50B2982169A278E00093C45 /* Foundation.framework */; };
+		B50B2985169A278E00093C45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50B2984169A278E00093C45 /* CoreGraphics.framework */; };
+		B50B298B169A278E00093C45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B50B2989169A278E00093C45 /* InfoPlist.strings */; };
+		B50B298D169A278E00093C45 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B298C169A278E00093C45 /* main.m */; };
+		B50B2991169A278E00093C45 /* TussveerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B2990169A278E00093C45 /* TussveerAppDelegate.m */; };
+		B50B2993169A278F00093C45 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B50B2992169A278E00093C45 /* Default.png */; };
+		B50B2995169A278F00093C45 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B50B2994169A278F00093C45 /* Default@2x.png */; };
+		B50B2997169A278F00093C45 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B50B2996169A278F00093C45 /* Default-568h@2x.png */; };
+		B50B299A169A278F00093C45 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B50B2998169A278F00093C45 /* MainStoryboard.storyboard */; };
+		B50B299D169A278F00093C45 /* TussveerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B50B299C169A278F00093C45 /* TussveerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B50B297C169A278E00093C45 /* Tussveer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tussveer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B50B2980169A278E00093C45 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B50B2982169A278E00093C45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B50B2984169A278E00093C45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B50B2988169A278E00093C45 /* Tussveer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tussveer-Info.plist"; sourceTree = "<group>"; };
+		B50B298A169A278E00093C45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B50B298C169A278E00093C45 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B50B298E169A278E00093C45 /* Tussveer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tussveer-Prefix.pch"; sourceTree = "<group>"; };
+		B50B298F169A278E00093C45 /* TussveerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TussveerAppDelegate.h; sourceTree = "<group>"; };
+		B50B2990169A278E00093C45 /* TussveerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TussveerAppDelegate.m; sourceTree = "<group>"; };
+		B50B2992169A278E00093C45 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		B50B2994169A278F00093C45 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		B50B2996169A278F00093C45 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		B50B2999169A278F00093C45 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B50B299B169A278F00093C45 /* TussveerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TussveerViewController.h; sourceTree = "<group>"; };
+		B50B299C169A278F00093C45 /* TussveerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TussveerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B50B2979169A278E00093C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50B2981169A278E00093C45 /* UIKit.framework in Frameworks */,
+				B50B2983169A278E00093C45 /* Foundation.framework in Frameworks */,
+				B50B2985169A278E00093C45 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B50B2971169A278E00093C45 = {
+			isa = PBXGroup;
+			children = (
+				B50B2986169A278E00093C45 /* Tussveer */,
+				B50B297F169A278E00093C45 /* Frameworks */,
+				B50B297D169A278E00093C45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B50B297D169A278E00093C45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B50B297C169A278E00093C45 /* Tussveer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B50B297F169A278E00093C45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B50B2980169A278E00093C45 /* UIKit.framework */,
+				B50B2982169A278E00093C45 /* Foundation.framework */,
+				B50B2984169A278E00093C45 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B50B2986169A278E00093C45 /* Tussveer */ = {
+			isa = PBXGroup;
+			children = (
+				B50B298F169A278E00093C45 /* TussveerAppDelegate.h */,
+				B50B2990169A278E00093C45 /* TussveerAppDelegate.m */,
+				B50B2998169A278F00093C45 /* MainStoryboard.storyboard */,
+				B50B299B169A278F00093C45 /* TussveerViewController.h */,
+				B50B299C169A278F00093C45 /* TussveerViewController.m */,
+				B50B2987169A278E00093C45 /* Supporting Files */,
+			);
+			path = Tussveer;
+			sourceTree = "<group>";
+		};
+		B50B2987169A278E00093C45 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B50B2988169A278E00093C45 /* Tussveer-Info.plist */,
+				B50B2989169A278E00093C45 /* InfoPlist.strings */,
+				B50B298C169A278E00093C45 /* main.m */,
+				B50B298E169A278E00093C45 /* Tussveer-Prefix.pch */,
+				B50B2992169A278E00093C45 /* Default.png */,
+				B50B2994169A278F00093C45 /* Default@2x.png */,
+				B50B2996169A278F00093C45 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B50B297B169A278E00093C45 /* Tussveer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B50B29A0169A278F00093C45 /* Build configuration list for PBXNativeTarget "Tussveer" */;
+			buildPhases = (
+				B50B2978169A278E00093C45 /* Sources */,
+				B50B2979169A278E00093C45 /* Frameworks */,
+				B50B297A169A278E00093C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tussveer;
+			productName = Tussveer;
+			productReference = B50B297C169A278E00093C45 /* Tussveer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B50B2973169A278E00093C45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Tussveer;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "0 to ∞";
+			};
+			buildConfigurationList = B50B2976169A278E00093C45 /* Build configuration list for PBXProject "Tussveer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B50B2971169A278E00093C45;
+			productRefGroup = B50B297D169A278E00093C45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B50B297B169A278E00093C45 /* Tussveer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B50B297A169A278E00093C45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50B298B169A278E00093C45 /* InfoPlist.strings in Resources */,
+				B50B2993169A278F00093C45 /* Default.png in Resources */,
+				B50B2995169A278F00093C45 /* Default@2x.png in Resources */,
+				B50B2997169A278F00093C45 /* Default-568h@2x.png in Resources */,
+				B50B299A169A278F00093C45 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B50B2978169A278E00093C45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50B298D169A278E00093C45 /* main.m in Sources */,
+				B50B2991169A278E00093C45 /* TussveerAppDelegate.m in Sources */,
+				B50B299D169A278F00093C45 /* TussveerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B50B2989169A278E00093C45 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50B298A169A278E00093C45 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B50B2998169A278F00093C45 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B50B2999169A278F00093C45 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B50B299E169A278F00093C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B50B299F169A278F00093C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B50B29A1169A278F00093C45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tussveer/Tussveer-Prefix.pch";
+				INFOPLIST_FILE = "Tussveer/Tussveer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B50B29A2169A278F00093C45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tussveer/Tussveer-Prefix.pch";
+				INFOPLIST_FILE = "Tussveer/Tussveer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B50B2976169A278E00093C45 /* Build configuration list for PBXProject "Tussveer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50B299E169A278F00093C45 /* Debug */,
+				B50B299F169A278F00093C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B50B29A0169A278F00093C45 /* Build configuration list for PBXNativeTarget "Tussveer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B50B29A1169A278F00093C45 /* Debug */,
+				B50B29A2169A278F00093C45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B50B2973169A278E00093C45 /* Project object */;
+}
